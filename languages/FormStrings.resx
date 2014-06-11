@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="activefeeds" xml:space="preserve">
+    <value>active feeds</value>
+  </data>
+  <data name="Addfeed" xml:space="preserve">
+    <value>&amp;Add feed</value>
+  </data>
+  <data name="AddToAppleiTunes" xml:space="preserve">
+    <value>Add to Apple iTunes</value>
+  </data>
+  <data name="AddToM3U" xml:space="preserve">
+    <value>Add to M3U</value>
+  </data>
+  <data name="AddToWindowsMediaPlayer" xml:space="preserve">
+    <value>Add to Windows Media Player</value>
+  </data>
+  <data name="Adjustvolume" xml:space="preserve">
+    <value>Adjust volume</value>
+  </data>
+  <data name="AllFiles" xml:space="preserve">
+    <value>All files</value>
+  </data>
+  <data name="AnerroroccuredEnablelogginganddoanewretrieve" xml:space="preserve">
+    <value>An error occured. Double click to enable logging and do a new retrieve.</value>
+  </data>
+  <data name="AnerroroccuredPleasecheckthelogfile" xml:space="preserve">
+    <value>An error occured. Double click to open the log file</value>
+  </data>
+  <data name="Anerroroccurred" xml:space="preserve">
+    <value>An error occurred: {0}</value>
+  </data>
+  <data name="Areyousureyourwanttodeletethexselectedfeeds" xml:space="preserve">
+    <value>Are you sure you want to delete the {0} selected feeds?</value>
+  </data>
+  <data name="Areyousureyouwanttodeletethesefiles" xml:space="preserve">
+    <value>Are you sure you want to delete these files?</value>
+  </data>
+  <data name="Areyousureyouwanttodeletethisfeedsubscription" xml:space="preserve">
+    <value>Are you sure you want to delete this feed subscription?</value>
+  </data>
+  <data name="Areyousureyouwanttodeletethisfile" xml:space="preserve">
+    <value>Are you sure you want to delete this file?</value>
+  </data>
+  <data name="Clicktochangeposition" xml:space="preserve">
+    <value>Click to change position</value>
+  </data>
+  <data name="ConvertingtobookmarkableAAC" xml:space="preserve">
+    <value>Converting to bookmarkable AAC</value>
+  </data>
+  <data name="CustomAction" xml:space="preserve">
+    <value>Custom</value>
+    <comment>Used in file type actions</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Deletesubscription" xml:space="preserve">
+    <value>Delete subscription</value>
+  </data>
+  <data name="Determiningsizeofx" xml:space="preserve">
+    <value>Determining size of {0}</value>
+  </data>
+  <data name="Downloadaborted" xml:space="preserve">
+    <value>Download aborted</value>
+  </data>
+  <data name="Downloadedanewpodcastfrom" xml:space="preserve">
+    <value>Downloaded a new podcast from {0}</value>
+  </data>
+  <data name="Downloadfromaborted" xml:space="preserve">
+    <value>Download from {0} aborted</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Errorwhiledownloadingfrom" xml:space="preserve">
+    <value>Error while downloading from {0}</value>
+  </data>
+  <data name="Firstretrievesomefiles" xml:space="preserve">
+    <value>First retrieve some files</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>hours</value>
+  </data>
+  <data name="ImportOPMLFile" xml:space="preserve">
+    <value>Import OPML file</value>
+  </data>
+  <data name="Initializingsession" xml:space="preserve">
+    <value>Initializing session</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="Newdownload" xml:space="preserve">
+    <value>New download</value>
+  </data>
+  <data name="newfeed" xml:space="preserve">
+    <value>new</value>
+  </data>
+  <data name="NoAction" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Noactivedownloads" xml:space="preserve">
+    <value>No active downloads</value>
+  </data>
+  <data name="Nodirectoriesavailable" xml:space="preserve">
+    <value>No OPML directories available</value>
+  </data>
+  <data name="Nofolderavailable" xml:space="preserve">
+    <value>No folder available</value>
+  </data>
+  <data name="NofolderavailableRetrievethisfeedfirst" xml:space="preserve">
+    <value>No folder available. Retrieve this feed first.</value>
+  </data>
+  <data name="OPMLFiles" xml:space="preserve">
+    <value>OPML files</value>
+  </data>
+  <data name="Parsingfeeds" xml:space="preserve">
+    <value>Parsing feeds...</value>
+  </data>
+  <data name="ParsingRSSItemxofy" xml:space="preserve">
+    <value>Parsing RSS items {0} of {1}</value>
+  </data>
+  <data name="PleaseaddsomeOPMLdirectoriesfirstintheoptions" xml:space="preserve">
+    <value>Please add some OPML directories first in the options</value>
+  </data>
+  <data name="Retrievingfeeds" xml:space="preserve">
+    <value>Retrieving feeds...</value>
+  </data>
+  <data name="RetrievingRSS" xml:space="preserve">
+    <value>Retrieving RSS</value>
+  </data>
+  <data name="SelectDirectory" xml:space="preserve">
+    <value>Select Directory</value>
+    <comment>Not directory on file system but an OPML directory, like a phonebook</comment>
+  </data>
+  <data name="Uncategorized" xml:space="preserve">
+    <value>Uncategorized</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="UpdateFeed" xml:space="preserve">
+    <value>&amp;Update Feed</value>
+  </data>
+  <data name="Waitinginqueueforconversion" xml:space="preserve">
+    <value>Waiting in queue for conversion</value>
+  </data>
+  <data name="xWhileDownloadingy" xml:space="preserve">
+    <value>{0} while downloading {1}</value>
+  </data>
+  <data name="ErrorDuringCatchUp" xml:space="preserve">
+    <value>Error during catch-up</value>
+  </data>
+  <data name="NewVersionOfDopplerAvailable" xml:space="preserve">
+    <value>A new version of Doppler is available. Do you want go to the website and download the new version?</value>
+  </data>
+  <data name="NewVersion" xml:space="preserve">
+    <value>New version</value>
+  </data>
+  <data name="YouAreRunningTheLatestVersionOfDoppler" xml:space="preserve">
+    <value>You are running the latest version of Doppler</value>
+  </data>
+  <data name="NoNewVersion" xml:space="preserve">
+    <value>No new version</value>
+  </data>
+  <data name="AnErrorOccuredWhileCheckingForTheLatestVersion" xml:space="preserve">
+    <value>An error occured while checking for the latest version
+
+</value>
+  </data>
+  <data name="SuccesfullyDeletedCacheFiles" xml:space="preserve">
+    <value>Succesfully deleted {0} cache file(s)</value>
+  </data>
+  <data name="LeaveEmptyToUseFeedName" xml:space="preserve">
+    <value>&lt;leave empty to use feed name&gt;</value>
+  </data>
+  <data name="LeaveEmptyToExtractNameFromTheFeed" xml:space="preserve">
+    <value>&lt;leave empty to extract name from the feed&gt;</value>
+  </data>
+  <data name="DopplerNeedsADownloadFolderAsYouDidNotSpecifyADownloadFolderDopplerWillAssumeOneForYou" xml:space="preserve">
+    <value>Doppler needs a download folder. As you did not specify a download folder, Doppler will assume one for you. 
+
+</value>
+  </data>
+  <data name="TheFolderPickedIs" xml:space="preserve">
+    <value>The folder picked is: </value>
+  </data>
+  <data name="NoDownloadFolder" xml:space="preserve">
+    <value>No download folder?</value>
+  </data>
+  <data name="FeedsSubscribedNewPodcastsInFeeds" xml:space="preserve">
+    <value>{0} feeds subscribed, {1} new podcasts in feeds</value>
+  </data>
+  <data name="FeedsSubscribed" xml:space="preserve">
+    <value>{0} feeds subscribed</value>
+  </data>
+  <data name="RetrievingPleaseWait" xml:space="preserve">
+    <value>Retrieving... please wait</value>
+  </data>
+  <data name="NoTitleSpecified" xml:space="preserve">
+    <value>No title specified</value>
+  </data>
+  <data name="CannotDeleteFileAccessDenied" xml:space="preserve">
+    <value>Cannot delete file, access denied</value>
+  </data>
+  <data name="LoggingIsCurrentDisabledDoYouWantToEnableTheLogToRecordErrors" xml:space="preserve">
+    <value>Logging is current disabled. Do you want to enable the log to record errors?</value>
+  </data>
+  <data name="LoggingHasBeenEnabledAndErrorsWillShowUpInTheLogFromNowOn" xml:space="preserve">
+    <value>Logging has been enabled and errors will show up in the log from now on.</value>
+  </data>
+  <data name="NotAValidFeedCheckTheLogForMoreInformation" xml:space="preserve">
+    <value>Not a valid feed. Check the log for more information.</value>
+  </data>
+  <data name="ErrorAddingFeed" xml:space="preserve">
+    <value>Error adding feed</value>
+  </data>
+  <data name="TemporaryDownloadChannel" xml:space="preserve">
+    <value>Temporary download channel</value>
+  </data>
+  <data name="DoubleClickAnEntryToCancelOrSkipTheDownload" xml:space="preserve">
+    <value>Double click an entry to cancel or skip the download</value>
+  </data>
+  <data name="Scheduled" xml:space="preserve">
+    <value>- scheduled -</value>
+  </data>
+  <data name="ErrorWhileAddingFileToPlaylistInWindowsMediaPlayer" xml:space="preserve">
+    <value>Error while adding file to playlist in Windows Media Player</value>
+  </data>
+  <data name="ITunesIsBusyPleaseCloseAllDialogboxesInITunes" xml:space="preserve">
+    <value>iTunes is busy, please close all dialogboxes in iTunes</value>
+  </data>
+  <data name="DoYouWantToRetrieve0From1Later" xml:space="preserve">
+    <value>Do you want to retrieve {0} from {1} later?</value>
+  </data>
+</root>

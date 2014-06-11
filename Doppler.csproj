@@ -1,0 +1,822 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9797BABC-3F7B-4C83-A5B6-3E404D0DECC1}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>icons\doppler.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Doppler</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Doppler</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>Doppler.Doppler</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <SccAuxPath>SAK</SccAuxPath>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>false</SignAssembly>
+    <ManifestCertificateThumbprint>274F4BB286786645FC1373E82595FD5611ED5857</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Doppler_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>false</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>c:\projects\deploy\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>2</UpdateInterval>
+    <UpdateIntervalUnits>Weeks</UpdateIntervalUnits>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <SupportUrl>http://www.dopplerrradio.net</SupportUrl>
+    <ProductName>Doppler</ProductName>
+    <PublisherName>DopplerRadio.NET</PublisherName>
+    <WebPage>install.html</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.9.1.1</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>3</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ID3, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\ID3.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.iTunesLib, Version=1.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\3rdParty\iTunes\Interop.iTunesLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration.Install">
+      <Name>System.Configuration.Install</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Name>System.DirectoryServices</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="classes\HistoryItem.cs" />
+    <Compile Include="classes\DopplerInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="classes\DopplerInstaller.Designer.cs">
+      <DependentUpon>DopplerInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classes\ListViewNF.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="classes\OpmlParser.cs" />
+    <Compile Include="classes\RetrieverPool.cs" />
+    <Compile Include="classes\FeedItem.cs" />
+    <Compile Include="classes\DirectoryItem.cs" />
+    <Compile Include="classes\DirectoryList.cs" />
+    <Compile Include="controls\MediaPlayerHelper.cs" />
+    <Compile Include="controls\iTunesHelper.cs" />
+    <Compile Include="gui\ExtensionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\ExtensionsForm.Designer.cs">
+      <DependentUpon>ExtensionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\DopplerPluginContext.cs" />
+    <Compile Include="interfaces\IDopplerPlugin.cs" />
+    <Compile Include="languages\FormStrings.sk.Designer.cs">
+      <DependentUpon>FormStrings.sk.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="languages\FormStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FormStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="languages\FormStrings.nl.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FormStrings.nl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="languages\FormStrings.sv.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FormStrings.sv.resx</DependentUpon>
+    </Compile>
+    <Compile Include="gui\NewFeedWizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\NewFeedWizardForm.Designer.cs">
+      <DependentUpon>NewFeedWizardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\Utils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\EncDec.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\FeedList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\History.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\Retriever.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\SysTrayNavigator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\ListViewColumnSorter.cs" />
+    <Compile Include="Doppler.cs" />
+    <Compile Include="controls\DopplerProgress.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\Downloader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\FileDownloader.cs" />
+    <Compile Include="gui\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gui\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\BrowseOPMLForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\CatchupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\OPMLDirectoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\FeedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\HistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\LogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\OptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controls\PostViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="classes\OpmlRetriever.cs" />
+    <Compile Include="gui\SetupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\SetupForm.Designer.cs">
+      <DependentUpon>SetupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="gui\SpecificEpisodesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\SpecificEpisodesForm.Designer.cs">
+      <DependentUpon>SpecificEpisodesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RSS\Collections\ExceptionCollection.cs" />
+    <Compile Include="RSS\Collections\RssChannelCollection.cs" />
+    <Compile Include="RSS\Collections\RssFeedCollection.cs" />
+    <Compile Include="RSS\Collections\RssItemCollection.cs" />
+    <Compile Include="RSS\RssChannel\RssChannel.cs" />
+    <Compile Include="RSS\RssChannel\RssImage.cs" />
+    <Compile Include="RSS\RssFeed.cs" />
+    <Compile Include="RSS\RssItem\RssEnclosure.cs" />
+    <Compile Include="RSS\RssItem\RssGuid.cs" />
+    <Compile Include="RSS\RssItem\RssItem.cs" />
+    <Compile Include="RSS\RssItem\RssSource.cs" />
+    <Compile Include="RSS\RssReader.cs" />
+    <Compile Include="RSS\Shared\DBBool.cs" />
+    <Compile Include="RSS\Shared\RssDefault.cs" />
+    <Compile Include="RSS\Shared\RssElement.cs" />
+    <Compile Include="RSS\Shared\RssEnumerators.cs" />
+    <Compile Include="RSS\Shared\W3CDate.cs" />
+    <Compile Include="gui\SkipRetryMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\SkipRetryMessageBox.Designer.cs">
+      <DependentUpon>SkipRetryMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tips\Tips.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tips.resx</DependentUpon>
+    </Compile>
+    <Compile Include="classes\Settings.cs" />
+    <Compile Include="classes\SingleApplication.cs" />
+    <Compile Include="gui\StartupTipForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gui\StartupTipForm.Designer.cs">
+      <DependentUpon>StartupTipForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\net.dopplerradio.update\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <None Include="images\stargrey.gif" />
+    <None Include="images\stargold.gif" />
+    <None Include="icons\sync200x200.png" />
+    <None Include="images\menubackorange2.gif" />
+    <None Include="icons\postsfiles.png" />
+    <None Include="icons\add_16.png" />
+    <None Include="icons\dopplerico_16.png" />
+    <None Include="icons\add.png" />
+    <None Include="icons\addfeed.png" />
+    <None Include="Resources\dopplerico_32.png" />
+    <None Include="Resources\dopplerico_48.png" />
+    <EmbeddedResource Include="controls\Downloader.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Downloader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\Downloader.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Downloader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\Downloader.pl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Downloader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\Downloader.sk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Downloader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\Downloader.sv.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Downloader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dopplerlogo.bmp" />
+    <EmbeddedResource Include="dopplerlogo.gif" />
+    <EmbeddedResource Include="controls\DopplerProgress.resx">
+      <DependentUpon>DopplerProgress.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\Downloader.resx">
+      <DependentUpon>Downloader.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\AboutForm.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\AboutForm.pl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\AboutForm.sk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\AboutForm.sv.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\BrowseOPMLForm.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BrowseOPMLForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\BrowseOPMLForm.pl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BrowseOPMLForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\BrowseOPMLForm.sk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BrowseOPMLForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\CatchupForm.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CatchupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\CatchupForm.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CatchupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\CatchupForm.pl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CatchupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\CatchupForm.sk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CatchupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\ExtensionsForm.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExtensionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\ExtensionsForm.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExtensionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\ExtensionsForm.pl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExtensionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\ExtensionsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExtensionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\ExtensionsForm.sk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExtensionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\ExtensionsForm.sv.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExtensionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\FeedForm.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FeedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\FeedForm.pl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FeedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\FeedForm.sk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FeedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\FeedForm.sv.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FeedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\HistoryForm.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\HistoryForm.pl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\HistoryForm.sk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\LogForm.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\LogForm.pl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\LogForm.sk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\LogForm.sv.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\MainForm.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\MainForm.pl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\MainForm.sk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\MainForm.sv.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\NewFeedWizardForm.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewFeedWizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\NewFeedWizardForm.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewFeedWizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\NewFeedWizardForm.pl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewFeedWizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\NewFeedWizardForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewFeedWizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\NewFeedWizardForm.sk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewFeedWizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\OptionsForm.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\OptionsForm.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\OptionsForm.pl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\OptionsForm.sk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\OptionsForm.sv.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\SetupForm.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\SetupForm.pl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\SetupForm.sk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\SetupForm.sv.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\AboutForm.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\BrowseOPMLForm.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BrowseOPMLForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\FeedForm.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FeedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\HistoryForm.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\LogForm.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\MainForm.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\BrowseOPMLForm.resx">
+      <DependentUpon>BrowseOPMLForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\CatchupForm.resx">
+      <DependentUpon>CatchupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\OPMLDirectoryForm.resx">
+      <DependentUpon>OPMLDirectoryForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\FeedForm.resx">
+      <DependentUpon>FeedForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\HistoryForm.resx">
+      <DependentUpon>HistoryForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\LogForm.resx">
+      <DependentUpon>LogForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\OptionsForm.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\OptionsForm.resx">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\SetupForm.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\SetupForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\SpecificEpisodesForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SpecificEpisodesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icons\doppler.ico" />
+    <EmbeddedResource Include="icons\pro1.ico" />
+    <EmbeddedResource Include="icons\pro10.ico" />
+    <EmbeddedResource Include="icons\pro2.ico" />
+    <EmbeddedResource Include="icons\pro3.ico" />
+    <EmbeddedResource Include="icons\pro4.ico" />
+    <EmbeddedResource Include="icons\pro5.ico" />
+    <EmbeddedResource Include="icons\pro6.ico" />
+    <EmbeddedResource Include="icons\pro7.ico" />
+    <EmbeddedResource Include="icons\pro8.ico" />
+    <EmbeddedResource Include="icons\pro9.ico" />
+    <EmbeddedResource Include="controls\PostViewer.resx">
+      <DependentUpon>PostViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="languages\FormStrings.sk.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FormStrings.sk.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="languages\FormStrings.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="languages\FormStrings.pl.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="languages\FormStrings.sv.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FormStrings.sv.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="languages\FormStrings.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FormStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="languages\FormStrings.nl.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FormStrings.nl.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\StartupTipForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StartupTipForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gui\SkipRetryMessageBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SkipRetryMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tips\Tips.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Tips.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yahoo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\technorati.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\podcastalley.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\podcastalley.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\podcastalley.gif" />
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://update.dopplerradio.net/update.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\net.dopplerradio.update\</RelPath>
+      <UpdateFromURL>http://update.dopplerradio.net/update.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Doppler_net_dopplerradio_update_Doppler</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newsgator.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feed-icon-16x16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feed-icon-10x10.ico" />
+    <None Include="Web References\net.dopplerradio.update\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_headphone.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downloaded.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences-system.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_headphone.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\disksmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\disksmallbw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\disksmalllight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\net.dopplerradio.update\DopplerVersion.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\net.dopplerradio.update\update.disco" />
+    <None Include="Web References\net.dopplerradio.update\Update.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ID3.dll" />
+    <Content Include="log4net.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

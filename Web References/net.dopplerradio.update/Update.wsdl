@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:s0="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" name="Update" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <xs:element name="GetLatestVersion">
+        <xs:complexType />
+      </xs:element>
+      <xs:complexType name="DopplerVersion">
+        <xs:complexContent mixed="false">
+          <xs:extension base="s0:ValueType">
+            <xs:sequence>
+              <xs:element minOccurs="1" maxOccurs="1" name="Major" type="xs:int" />
+              <xs:element minOccurs="1" maxOccurs="1" name="Minor" type="xs:int" />
+              <xs:element minOccurs="1" maxOccurs="1" name="Build" type="xs:int" />
+              <xs:element minOccurs="1" maxOccurs="1" name="Revision" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="ValueType" />
+      <xs:element name="GetLatestVersionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="1" name="GetLatestVersionResult" type="s0:DopplerVersion" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DopplerVersion" type="s0:DopplerVersion" />
+    </s:schema>
+  </types>
+  <message name="GetLatestVersionSoapIn">
+    <part name="parameters" element="s0:GetLatestVersion" />
+  </message>
+  <message name="GetLatestVersionSoapOut">
+    <part name="parameters" element="s0:GetLatestVersionResponse" />
+  </message>
+  <message name="GetLatestVersionHttpGetIn" />
+  <message name="GetLatestVersionHttpGetOut">
+    <part name="Body" element="s0:DopplerVersion" />
+  </message>
+  <message name="GetLatestVersionHttpPostIn" />
+  <message name="GetLatestVersionHttpPostOut">
+    <part name="Body" element="s0:DopplerVersion" />
+  </message>
+  <portType name="UpdateSoap">
+    <operation name="GetLatestVersion">
+      <input message="s0:GetLatestVersionSoapIn" />
+      <output message="s0:GetLatestVersionSoapOut" />
+    </operation>
+  </portType>
+  <portType name="UpdateHttpGet">
+    <operation name="GetLatestVersion">
+      <input message="s0:GetLatestVersionHttpGetIn" />
+      <output message="s0:GetLatestVersionHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="UpdateHttpPost">
+    <operation name="GetLatestVersion">
+      <input message="s0:GetLatestVersionHttpPostIn" />
+      <output message="s0:GetLatestVersionHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="UpdateSoap" type="s0:UpdateSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="GetLatestVersion">
+      <soap:operation soapAction="http://tempuri.org/GetLatestVersion" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="UpdateHttpGet" type="s0:UpdateHttpGet">
+    <http:binding verb="GET" />
+    <operation name="GetLatestVersion">
+      <http:operation location="/GetLatestVersion" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="UpdateHttpPost" type="s0:UpdateHttpPost">
+    <http:binding verb="POST" />
+    <operation name="GetLatestVersion">
+      <http:operation location="/GetLatestVersion" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Update">
+    <documentation>Returns the latest version of Doppler</documentation>
+    <port name="UpdateSoap" binding="s0:UpdateSoap">
+      <soap:address location="http://update.dopplerradio.net/update.asmx" />
+    </port>
+    <port name="UpdateHttpGet" binding="s0:UpdateHttpGet">
+      <http:address location="http://update.dopplerradio.net/update.asmx" />
+    </port>
+    <port name="UpdateHttpPost" binding="s0:UpdateHttpPost">
+      <http:address location="http://update.dopplerradio.net/update.asmx" />
+    </port>
+  </service>
+</definitions>

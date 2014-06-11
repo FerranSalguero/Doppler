@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="OKButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 392</value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>541, 392</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>&amp;Storno</value>
+  </data>
+  <data name="ConfirmDeleteCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 17</value>
+  </data>
+  <data name="ConfirmDeleteCheckBox.Text" xml:space="preserve">
+    <value>Potvrdiť pri vymazávaní položky</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ClearCacheButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClearCacheButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="ClearCacheButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 24</value>
+  </data>
+  <data name="ClearCacheButton.Text" xml:space="preserve">
+    <value>Vymazať vyrovn. pamäť</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>586, 87</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Rôzne</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Max. počet vlákien pre sťahovanie</value>
+  </data>
+  <data name="numericMaxThreads.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 20</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 49</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Výkon</value>
+  </data>
+  <data name="radioDupDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 17</value>
+  </data>
+  <data name="radioDupDateTime.Text" xml:space="preserve">
+    <value>Pridať k názvu súboru dátum a čas</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 13</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Pri výskyte duplicitného súboru</value>
+  </data>
+  <data name="radioDupSkip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 17</value>
+  </data>
+  <data name="radioDupSkip.Text" xml:space="preserve">
+    <value>Vynechať sťahovanie</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 85</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Duplikovať súbory</value>
+  </data>
+  <data name="labelLogMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 13</value>
+  </data>
+  <data name="labelLogMessage.Text" xml:space="preserve">
+    <value>Súbor so záznamom môžete otvoriť aj z menu Nástroje, v hlavnom okne programu</value>
+  </data>
+  <data name="buttonOpenLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 15</value>
+  </data>
+  <data name="buttonOpenLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 24</value>
+  </data>
+  <data name="buttonOpenLog.Text" xml:space="preserve">
+    <value>Otvor zázn.</value>
+  </data>
+  <data name="radioLogLevelAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="radioLogLevelAll.Text" xml:space="preserve">
+    <value>Všetky udalosti</value>
+  </data>
+  <data name="radioLogLevelErrors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="radioLogLevelErrors.Text" xml:space="preserve">
+    <value>Chyby</value>
+  </data>
+  <data name="checkLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="checkLog.Text" xml:space="preserve">
+    <value>Zapnúť</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 79</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Zaznamenávanie</value>
+  </data>
+  <data name="tabAdvanced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>607, 360</value>
+  </data>
+  <data name="tabAdvanced.Text" xml:space="preserve">
+    <value>Pokročilé</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 276</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 13</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Pre úpravu záznamu naň musíte dvakrát kliknúť</value>
+  </data>
+  <data name="DeleteDirectoryButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 270</value>
+  </data>
+  <data name="DeleteDirectoryButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="DeleteDirectoryButton.Text" xml:space="preserve">
+    <value>Vy&amp;mazať vybrané</value>
+  </data>
+  <data name="AddDirectoryButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>509, 270</value>
+  </data>
+  <data name="AddDirectoryButton.Text" xml:space="preserve">
+    <value>&amp;Pridať</value>
+  </data>
+  <data name="columnName.Text" xml:space="preserve">
+    <value>Názov</value>
+  </data>
+  <data name="columnURL.Text" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="DirectoriesListView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 236</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Priečinky OPML:</value>
+  </data>
+  <data name="tabDirectories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>607, 360</value>
+  </data>
+  <data name="tabDirectories.Text" xml:space="preserve">
+    <value>Priečinky OPML</value>
+  </data>
+  <data name="PlaylistTextBox.Text" xml:space="preserve">
+    <value>&lt;ak chcete použiť názov poľa, ponechajte toto pole prázdne&gt;</value>
+  </data>
+  <data name="tabFeedMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>581, 240</value>
+  </data>
+  <data name="tabFeedMain.Text" xml:space="preserve">
+    <value>Hlavné</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 63</value>
+  </data>
+  <data name="numericMaxMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 61</value>
+  </data>
+  <data name="RetrieveMaximumMBCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 62</value>
+  </data>
+  <data name="RetrieveMaximumMBCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 17</value>
+  </data>
+  <data name="RetrieveMaximumMBCheckBox.Text" xml:space="preserve">
+    <value>Sťahovať len súbory &lt;</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 40</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>podcasty</value>
+  </data>
+  <data name="numericLastPosts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 38</value>
+  </data>
+  <data name="RetrieveOnlyLastCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 39</value>
+  </data>
+  <data name="RetrieveOnlyLastCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 17</value>
+  </data>
+  <data name="RetrieveOnlyLastCheckBox.Text" xml:space="preserve">
+    <value>Sťahovať len posledných</value>
+  </data>
+  <data name="checkKeepUnplayed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 85</value>
+  </data>
+  <data name="checkKeepUnplayed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 17</value>
+  </data>
+  <data name="checkKeepUnplayed.Text" xml:space="preserve">
+    <value>Odstrániť prehrané podcasty</value>
+  </data>
+  <data name="comboRating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 15</value>
+  </data>
+  <data name="RemoveByRatingCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RemoveByRatingCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 17</value>
+  </data>
+  <data name="RemoveByRatingCheckBox.Text" xml:space="preserve">
+    <value>Odstraňovať na základe hodnotenia (ratingu)</value>
+  </data>
+  <data name="DefaultSpaceSaversGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>573, 110</value>
+  </data>
+  <data name="DefaultSpaceSaversGroupBox.Text" xml:space="preserve">
+    <value>Predvolené šetriče miesta</value>
+  </data>
+  <data name="labelRestrictDaysDays.Location" type="System.Drawing.Point, System.Drawing">
+    <value>542, 65</value>
+  </data>
+  <data name="labelRestrictDaysDays.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="labelRestrictDaysDays.Text" xml:space="preserve">
+    <value>dní</value>
+  </data>
+  <data name="labelRestrictDays.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 65</value>
+  </data>
+  <data name="labelRestrictDays.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 13</value>
+  </data>
+  <data name="labelRestrictDays.Text" xml:space="preserve">
+    <value>Odstrániť súb.staršie ako</value>
+  </data>
+  <data name="RestrictByDaysNumeric.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 63</value>
+  </data>
+  <data name="RestrictByDaysRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
+  </data>
+  <data name="RestrictByDaysRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 17</value>
+  </data>
+  <data name="RestrictByDaysRadioButton.Text" xml:space="preserve">
+    <value>Obmedziť max. vek v dňoch</value>
+  </data>
+  <data name="RestrictByFilesNumeric.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 40</value>
+  </data>
+  <data name="labelMaximumFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 42</value>
+  </data>
+  <data name="labelMaximumFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="labelMaximumFiles.Text" xml:space="preserve">
+    <value>Max. počet súborov</value>
+  </data>
+  <data name="RestrictByFilesRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 40</value>
+  </data>
+  <data name="RestrictByFilesRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 17</value>
+  </data>
+  <data name="RestrictByFilesRadioButton.Text" xml:space="preserve">
+    <value>Obmedziť podľa počtu obsiahnutých súborov</value>
+  </data>
+  <data name="labelMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>542, 19</value>
+  </data>
+  <data name="RestrictBySizeNumeric.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 17</value>
+  </data>
+  <data name="labelTotalSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 19</value>
+  </data>
+  <data name="labelTotalSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 13</value>
+  </data>
+  <data name="labelTotalSize.Text" xml:space="preserve">
+    <value>Max. kapacita, obsadená poľom</value>
+  </data>
+  <data name="RestrictBySizeRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 17</value>
+  </data>
+  <data name="RestrictBySizeRadioButton.Text" xml:space="preserve">
+    <value>Obmedziť podľa veľkosti na disku</value>
+  </data>
+  <data name="AdditionalSpaceSaversGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>570, 94</value>
+  </data>
+  <data name="AdditionalSpaceSaversGroupBox.Text" xml:space="preserve">
+    <value>Prídavné šetriče miesta</value>
+  </data>
+  <data name="SpaceSaversCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 119</value>
+  </data>
+  <data name="SpaceSaversCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 17</value>
+  </data>
+  <data name="SpaceSaversCheckBox.Text" xml:space="preserve">
+    <value>Použiť prídavné šetriče miesta</value>
+  </data>
+  <data name="tabFeedSpaceSavers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>581, 240</value>
+  </data>
+  <data name="tabFeedSpaceSavers.Text" xml:space="preserve">
+    <value>Šetriče miesta</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Titul</value>
+  </data>
+  <data name="TagTitleTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 29</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 13</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Pri nahradzovaní tagov použite smart-tagy</value>
+  </data>
+  <data name="labelArtist.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelArtist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 105</value>
+  </data>
+  <data name="labelArtist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="labelArtist.Text" xml:space="preserve">
+    <value>Umelec</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 81</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 57</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Žáner</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 13</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Ak sem zadáte nejaké nové tagy, pôvodné tagy sa vymažú.</value>
+  </data>
+  <data name="tabFeedTags.Size" type="System.Drawing.Size, System.Drawing">
+    <value>581, 240</value>
+  </data>
+  <data name="tabFeedTags.Text" xml:space="preserve">
+    <value>MP3 tagy</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 97</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Text zadaný vo filtri sa bude porovnávať z textom zadaným v popise jednotlivých položiek. Ak sa nájde zhoda, súbor sa stiahne. Pri zadávaní textu môžete používať regulárne výrazy.</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="tabFeedFilters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>581, 240</value>
+  </data>
+  <data name="tabFeedFilters.Text" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="tabControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 266</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>444, 13</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Pri objednaní doručovania obsahu z nového poľa sa použijú tieto nastavenia</value>
+  </data>
+  <data name="tabDefaultFeedSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>607, 360</value>
+  </data>
+  <data name="tabDefaultFeedSettings.Text" xml:space="preserve">
+    <value>Predvolené nastavenia poľa</value>
+  </data>
+  <data name="FileAssociationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 34</value>
+  </data>
+  <data name="FileAssociationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="FileAssociationLabel.Text" xml:space="preserve">
+    <value>AsociáciaSúboru</value>
+  </data>
+  <data name="FileTypeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 34</value>
+  </data>
+  <data name="FileTypeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="FileTypeLabel.Text" xml:space="preserve">
+    <value>TypSúboru</value>
+  </data>
+  <data name="IntroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 16</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 13</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Čo má program Doppler urobiť so stiahnutými súbormi? </value>
+  </data>
+  <data name="MediaPlayerManualRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 32</value>
+  </data>
+  <data name="MediaPlayerManualRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 17</value>
+  </data>
+  <data name="MediaPlayerManualRadioButton.Text" xml:space="preserve">
+    <value>Vybrať akciu manuálne</value>
+  </data>
+  <data name="MediaPlayerAutomaticRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="MediaPlayerAutomaticRadioButton.Text" xml:space="preserve">
+    <value>Prehrať a.</value>
+  </data>
+  <data name="VideoM3URadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 17</value>
+  </data>
+  <data name="VideoM3URadioButton.Text" xml:space="preserve">
+    <value>Pridať do playlistu M3U</value>
+  </data>
+  <data name="VideoAdvancedButton.Text" xml:space="preserve">
+    <value>Pokročilé</value>
+  </data>
+  <data name="VideoCustomApplicationTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 110</value>
+  </data>
+  <data name="VideoCustomApplicationTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 21</value>
+  </data>
+  <data name="VideoNothingRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 17</value>
+  </data>
+  <data name="VideoNothingRadioButton.Text" xml:space="preserve">
+    <value>Neurobiť nič, len stiahnuť</value>
+  </data>
+  <data name="VideoCustomRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 17</value>
+  </data>
+  <data name="VideoCustomRadioButton.Text" xml:space="preserve">
+    <value>Odovzdať programom</value>
+  </data>
+  <data name="VideoWMPRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 17</value>
+  </data>
+  <data name="VideoWMPRadioButton.Text" xml:space="preserve">
+    <value>Pridať do Windows Media Player-a</value>
+  </data>
+  <data name="VideoItunesRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="VideoItunesRadioButton.Text" xml:space="preserve">
+    <value>Pridať k iTunes</value>
+  </data>
+  <data name="VideoGroupBox.Text" xml:space="preserve">
+    <value>Video-súbory</value>
+  </data>
+  <data name="AudioM3URadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 17</value>
+  </data>
+  <data name="AudioM3URadioButton.Text" xml:space="preserve">
+    <value>Pridať do playlistu M3U</value>
+  </data>
+  <data name="ConvertToBookmarkableCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 43</value>
+  </data>
+  <data name="ConvertToBookmarkableCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 17</value>
+  </data>
+  <data name="ConvertToBookmarkableCheckBox.Text" xml:space="preserve">
+    <value>Konvertovať do formátu AAC</value>
+  </data>
+  <data name="AudioCustomApplicationTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 108</value>
+  </data>
+  <data name="AudioCustomApplicationTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 21</value>
+  </data>
+  <data name="AudioAdvancedButton.Text" xml:space="preserve">
+    <value>Pokročilé</value>
+  </data>
+  <data name="AudioNothingRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 17</value>
+  </data>
+  <data name="AudioNothingRadioButton.Text" xml:space="preserve">
+    <value>Neurobiť nič, len stiahnuť</value>
+  </data>
+  <data name="AudioCustomRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 17</value>
+  </data>
+  <data name="AudioCustomRadioButton.Text" xml:space="preserve">
+    <value>Odovzdať programu</value>
+  </data>
+  <data name="AudioWMPRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 17</value>
+  </data>
+  <data name="AudioWMPRadioButton.Text" xml:space="preserve">
+    <value>Pridať do Windows Media Player-a</value>
+  </data>
+  <data name="AudioItunesRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="AudioItunesRadioButton.Text" xml:space="preserve">
+    <value>Pridať k iTunes</value>
+  </data>
+  <data name="AudioGroupBox.Text" xml:space="preserve">
+    <value>Audio súbory</value>
+  </data>
+  <data name="tabFileTypes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>607, 360</value>
+  </data>
+  <data name="CheckSpecificRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 17</value>
+  </data>
+  <data name="CheckSpecificRadioButton.Text" xml:space="preserve">
+    <value>Kontrolovať v tomto čase</value>
+  </data>
+  <data name="CheckIntervalRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 17</value>
+  </data>
+  <data name="CheckIntervalRadioButton.Text" xml:space="preserve">
+    <value>Kontrolovať každých</value>
+  </data>
+  <data name="ScheduleRetrieveCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 17</value>
+  </data>
+  <data name="ScheduleRetrieveCheckBox.Text" xml:space="preserve">
+    <value>Naplánovať kontrolu nového obsahu</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 96</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Plánovanie</value>
+  </data>
+  <data name="tabScheduling.Size" type="System.Drawing.Size, System.Drawing">
+    <value>607, 360</value>
+  </data>
+  <data name="tabScheduling.Text" xml:space="preserve">
+    <value>Plánovanie</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 17</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>Po spustení ihneď obnoviť</value>
+  </data>
+  <data name="ShowFavIconsCheckBox.HelpString" xml:space="preserve">
+    <value>Ak je táto voľba aktívna, program Doppler zobrazí v prípade, že je dostupný nový súbor malé upozornenie v bubline.</value>
+  </data>
+  <data name="ShowFavIconsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 17</value>
+  </data>
+  <data name="ShowFavIconsCheckBox.Text" xml:space="preserve">
+    <value>V zozname polí zobrazovať aj ikony stránok</value>
+  </data>
+  <data name="CheckForUpdateNowButton.Text" xml:space="preserve">
+    <value>Skontrolovať</value>
+  </data>
+  <data name="LastCheckedLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 223</value>
+  </data>
+  <data name="LastCheckedLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="LastCheckedLabel.Text" xml:space="preserve">
+    <value>nikdy</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Posledná kontrola:</value>
+  </data>
+  <data name="CheckForUpdatesCheckBoxUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 17</value>
+  </data>
+  <data name="CheckForUpdatesCheckBoxUpdate.Text" xml:space="preserve">
+    <value>Má Doppler automaticky kontrolovať dostupnosť aktualizácií?</value>
+  </data>
+  <data name="DownloadsFolderTextBox.HelpString" xml:space="preserve">
+    <value>Zadajte priečinok, do ktorého má program Doppler ukladať stiahnuté súbory</value>
+  </data>
+  <data name="DownloadsFolderTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 11</value>
+  </data>
+  <data name="DownloadsFolderTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 21</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Priečinok pre sťahovanie</value>
+  </data>
+  <data name="MinimizeToSystemTrayCheckBox.HelpString" xml:space="preserve">
+    <value>Ak je voľba aktívna, program sa minimalizuje do systémovej lišty, z ktorej ho vyvoláte dvojkliknutím. </value>
+  </data>
+  <data name="MinimizeToSystemTrayCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 17</value>
+  </data>
+  <data name="MinimizeToSystemTrayCheckBox.Text" xml:space="preserve">
+    <value>Minimalizovať do systémovej lišty</value>
+  </data>
+  <data name="PopupNotificationCheckBox.HelpString" xml:space="preserve">
+    <value>Ak je táto voľba aktívna, program Doppler zobrazí v prípade, že je dostupný nový súbor malé upozornenie v bubline.</value>
+  </data>
+  <data name="PopupNotificationCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 17</value>
+  </data>
+  <data name="PopupNotificationCheckBox.Text" xml:space="preserve">
+    <value>Upozorniť po úspešnom stiahnutí</value>
+  </data>
+  <data name="MinimizeOnCloseCheckBox.HelpString" xml:space="preserve">
+    <value>Ak je táto voľba aktívna, program sa po kliknutí na tlačidlo Zatvoriť len minimalizuje, ale neukončí sa. </value>
+  </data>
+  <data name="MinimizeOnCloseCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 17</value>
+  </data>
+  <data name="MinimizeOnCloseCheckBox.Text" xml:space="preserve">
+    <value>Po kliknutí na tlačidlo Zatvoriť, minimalizovať program.</value>
+  </data>
+  <data name="StartMinimizedCheckBox.HelpString" xml:space="preserve">
+    <value>Pri vybraní spustiť minimalizovaný Doppler</value>
+  </data>
+  <data name="StartMinimizedCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 17</value>
+  </data>
+  <data name="StartMinimizedCheckBox.Text" xml:space="preserve">
+    <value>Spustiť program Doppler minimalizovaný</value>
+  </data>
+  <data name="tabMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>607, 360</value>
+  </data>
+  <data name="tabMain.Text" xml:space="preserve">
+    <value>Hlavné</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>615, 386</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>613, 423</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAMDAAAAEAIACoJQAANgAAACAgAAABACAAqBAAAN4lAAAQEAAAAQAgAGgEAACGNgAAKAAAADAA
+        AABgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+B/b6/jXN6P5wrNj9mI3K
+        /Lh9wvzPcb382nK9/Np9wvzOjsr8uK3Z/ZfP6P5v9vv+NP7+/gcAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+B+r1/kii1P2mX7T76iuc
+        +/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/LJ37/1+1/Omk1P2l6/X+R/7+
+        /gcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/gzW7P5nb7z82Smb
+        +/4fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X
+        +/8fl/v/KZv7/nG9/NfX7P5l/v7+CwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8B6fT+THG9
+        /Ncjmfv+H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X
+        +/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8kmfv+c7381ur1/kr///8BAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+
+        /hKr2P2lMZ/7/B+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X
+        +/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/zKf+/ut2f2j/v7+EQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA9vr+LnS+/Nggl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/yea+/9bs/v/jsr8/7Ha
+        /f/J5v3/1uz+/9bs/v/J5v3/sdr9/43K/P9bsvv/Jpr7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X
+        +/8gl/v/dr/81/b7/iwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADv9/48VrD77B+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/yGX+/9Zsvv/s9v9//f7
+        /v//////////////////////////////////////////////////////9/v+/7Hb/f9Zsfv/IJf7/x+X
+        +/8fl/v/H5f7/x+X+/8fl/v/H5f7/1ix++vv9/46AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAO73/j9Kq/vzH5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/VrD7/8zn
+        /f/+/v7/////////////////////////////////////////////////////////////////////////
+        ///+/v7/yub9/1Sv+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/9NrPvw7/f+PAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vv+MFaw++sfl/v/H5f7/x+X+/8fl/v/H5f7/ymb
+        +/+j1P3/+/3+////////////////////////////////////////////////////////////////////
+        //////////////////////////////v9/v+g0/3/KJv7/x+X+/8fl/v/H5f7/x+X+/8fl/v/WbL76ff7
+        /i0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/v4Sd8D81R+X+/8fl/v/H5f7/x+X
+        +/8fl/v/PKT7/9Tr/v//////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////0ur+/zqj+/8fl/v/H5f7/x+X
+        +/8fl/v/H5f7/3rB/NP+/v4RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wKv2v2iIJf7/x+X
+        +/8fl/v/H5f7/x+X+/9FqPv/5fL+////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////5+fn//////////////////////+Py
+        /v9Dp/v/H5f7/x+X+/8fl/v/H5f7/yGX+/+y2/2f////AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOv1
+        /kwxn/v8H5f7/x+X+/8fl/v/H5f7/zuk+//k8v7/////////////////////////////////////////
+        /////////////////////////////////////////////////////////////9nZ2f93d3f/3d3d////
+        //////////////Hx8f+7ytb/OaP7/x+X+/8fl/v/H5f7/x+X+/8zoPv77Pb+SQAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/v7+Cna//Ngfl/v/H5f7/x+X+/8fl/v/KJv7/9Hp/v//////////////////////////////
+        ///////////////////////////////////////////////////////////////////+/v7/y8vL/2ho
+        aP9jY2P/cXFx/+bm5v//////6Ojo/3l5ef++vr7/z+j+/yeb+/8fl/v/H5f7/x+X+/8fl/v/esH81f7+
+        /gkAAAAAAAAAAAAAAAAAAAAA2+7+ZSWZ+/4fl/v/H5f7/x+X+/8fl/v/n9L9////////////////////
+        //////////////////////////////////////////////////////////////////////////////7+
+        /v+8vLz/ZWVl/2NjY/9jY2P/Y2Nj/3l5ef/Pz8//cXFx/2NjY/+/v7///////5zQ/f8fl/v/H5f7/x+X
+        +/8fl/v/Jpr7/t7v/mEAAAAAAAAAAAAAAAD+/v4Hd7/82R+X+/8fl/v/H5f7/x+X+/9Prfv/+vz+////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////Pz8/62trf9kZGT/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY//Dw8P///////n8
+        /v9MrPv/H5f7/x+X+/8fl/v/H5f7/3rB/Nb+/v4GAAAAAAAAAADt9v5IK5z7/x+X+/8fl/v/H5f7/yCX
+        +//F5P3/////////////////////////////////////////////////////////////////////////
+        ///////////////////5+fn/np6e/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2Nj
+        Y//Dw8P////////////C4v3/IJf7/x+X+/8fl/v/H5f7/y2d+//v9/5FAAAAAAAAAACn1v2lH5f7/x+X
+        +/8fl/v/H5f7/1Ku+//+/v7/////////////////////////////////////////////////////////
+        ///////////////////////////////////CwsL/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2Nj
+        Y/9jY2P/Y2Nj/2NjY//Hx8f////////////9/v7/T637/x+X+/8fl/v/H5f7/x+X+/+r2P2gAAAAAP7+
+        /gdhtfzrH5f7/x+X+/8fl/v/H5f7/6vY/f//////////////////////////////////////////////
+        ///////////////////////////////////////////////////8/Pz/mZmZ/2NjY/9jY2P/Y2Nj/2Nj
+        Y/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY//IyMj/////////////////p9b9/x+X+/8fl/v/H5f7/x+X
+        +/9lt/zn////Bvf7/jYunvv/H5f7/x+X+/8fl/v/JZn7//T5/v//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////+fn5/4yM
+        jP9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY//Ly8v/////////////////8vn+/yOZ
+        +/8fl/v/H5f7/x+X+/8wn/v++fz+MtPq/m4fl/v/H5f7/x+X+/8fl/v/VrD7////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////+bm5v9nZ2f/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY//Nzc3/////////
+        /////////////1Ku+/8fl/v/H5f7/x+X+/8fl/v/1uz+aq/a/Zgfl/v/H5f7/x+X+/8fl/v/isj8////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////6enp/319ff9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2Nj
+        Y//Pz8///////////////////////4bH/P8fl/v/H5f7/x+X+/8fl/v/s9v9k47K/Lsfl/v/H5f7/x+X
+        +/8fl/v/rdj9////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////f39//dHR0/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2Nj
+        Y/9jY2P/Y2Nj/2NjY//R0dH//////////////////////6nX/f8fl/v/H5f7/x+X+/8fl/v/ksz8tX3D
+        /M8fl/v/H5f7/x+X+/8fl/v/x+X9////////////////////////////////////////////////////
+        //////////////////////////////////////////////7+/v/b29v/wsLC/7Ozs/+kpKT/lJSU/4WF
+        hf93d3f/a2tr/2NjY/9jY2P/Y2Nj/2NjY//T09P//////////////////////8Pj/f8fl/v/H5f7/x+X
+        +/8fl/v/gcT8zHK9/Nkfl/v/H5f7/x+X+/8fl/v/0+r+//////////////////b29v/Y2Nj/6Ojo//j4
+        +P//////////////////////////////////////////////////////////////////////////////
+        //////////////7+/v/8/Pz/+vr6//Pz8//j4+P/1NTU/8TExP/t7e3//////////////////////9Dp
+        /v8fl/v/H5f7/x+X+/8fl/v/db/813G9/Nkfl/v/H5f7/x+X+/8fl/v/1uz+/////////////////93d
+        3f9jY2P/Y2Nj/2NjY/9ra2v/e3t7/4uLi/+bm5v/q6ur/7q6uv/Kysr/2tra/+vr6//+/v7/////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////9Hq/v8fl/v/H5f7/x+X+/8fl/v/c77813vB/M8fl/v/H5f7/x+X+/8fl/v/yub9////
+        /////////////9zc3P9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/aGho/8bG
+        xv/+/v7/////////////////////////////////////////////////////////////////////////
+        /////////////////////////////8fl/f8fl/v/H5f7/x+X+/8fl/v/f8P8y4nI/Lofl/v/H5f7/x+X
+        +/8fl/v/tNz9/////////////////9fX1/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2Nj
+        Y/9tbW3/1NTU////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////7Da/f8fl/v/H5f7/x+X+/8fl/v/jMn8tKjW
+        /Zcfl/v/H5f7/x+X+/8fl/v/ksz8/////////////////9bW1v9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2Nj
+        Y/9jY2P/Y2Nj/2VlZf/Z2dn/////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////47K/P8fl/v/H5f7/x+X
+        +/8fl/v/q9j9ksrm/W0fl/v/H5f7/x+X+/8fl/v/Yrb8/////////////////9PT0/9jY2P/Y2Nj/2Nj
+        Y/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/+YmJj//Pz8////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////1+0
+        /P8fl/v/H5f7/x+X+/8fl/v/zuj+aPL5/jQnmvv/H5f7/x+X+/8fl/v/K5z7//v9/v///////////9DQ
+        0P9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/qamp//7+/v//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////+fz+/ymb+/8fl/v/H5f7/x+X+/8pm/v+9Pr+L/7+/gdVsPvpH5f7/x+X+/8fl/v/H5f7/7zg
+        /f///////////87Ozv9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/8HB
+        wf//////////////////////////////////////////////////////////////////////////////
+        ////////////////////////ud79/x+X+/8fl/v/H5f7/x+X+/9Zsfvm/v7+BQAAAACXzv2hH5f7/x+X
+        +/8fl/v/H5f7/2a4/P/+/v7//////8vLy/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2Nj
+        Y/9jY2P/g4OD/+7u7v//////////////////////////////////////////////////////////////
+        ///////////////////////////////////+/v7/Y7b8/x+X+/8fl/v/H5f7/x+X+/+a0P2eAAAAAAAA
+        AADi8f5GJJn7/x+X+/8fl/v/H5f7/yOZ+//Z7f7//////8nJyf9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2Nj
+        Y/9jY2P/Y2Nj/2NjY/+Pj4//9fX1////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////W7P7/Ipj7/x+X+/8fl/v/H5f7/yWa
+        +/3l8v5CAAAAAAAAAAD+/v4GYrb81x+X+/8fl/v/H5f7/x+X+/9ouPz//v7+/8XFxf9jY2P/Z2dn/7a2
+        tv9xcXH/Y2Nj/2NjY/9jY2P/Y2Nj/56env/6+vr/////////////////////////////////////////
+        //////////////////////////////////////////////////////////////3+/v9kt/z/H5f7/x+X
+        +/8fl/v/H5f7/2W3/NT+/v4FAAAAAAAAAAAAAAAAyeX9YiGX+/4fl/v/H5f7/x+X+/8hmPv/vN/9/8TE
+        xP9tbW3/1dXV///////b29v/a2tr/2NjY/9jY2P/rq6u//39/f//////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////7ne
+        /f8gl/v/H5f7/x+X+/8fl/v/IZj7/szn/V4AAAAAAAAAAAAAAAAAAAAA/f7+CV2z/NUfl/v/H5f7/x+X
+        +/8fl/v/NqH7/7rH0f/i4uL//v7+///////+/v7/z8/P/2lpaf++vr7//v7+////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////5fP+/zWh+/8fl/v/H5f7/x+X+/8fl/v/YLX80f3+/ggAAAAAAAAAAAAAAAAAAAAAAAAAANnt
+        /kgnmvv7H5f7/x+X+/8fl/v/H5f7/1Sv+//1+v7//////////////////////+7u7v//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////z+f7/Uq77/x+X+/8fl/v/H5f7/x+X+/8nm/v62+7+RgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP///wGPy/yeH5f7/x+X+/8fl/v/H5f7/x+X+/9jtvz/9vv+////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////X6/v9htfz/H5f7/x+X+/8fl/v/H5f7/x+X+/+SzPya////AQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD6/P4QWLH70h+X+/8fl/v/H5f7/x+X+/8fl/v/WrL7/+73
+        /v//////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////7fb+/1ix+/8fl/v/H5f7/x+X+/8fl/v/H5f7/1uy
+        +9D7/f4PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6PT+LDyk++gfl/v/H5f7/x+X
+        +/8fl/v/H5f7/z+l+//N5/3/////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////K5v3/PaT7/x+X+/8fl/v/H5f7/x+X
+        +/8fl/v/PaX75+n1/ioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANnt
+        /jsyn/vwH5f7/x+X+/8fl/v/H5f7/x+X+/8lmvv/gsX8/+33/v//////////////////////////////
+        ////////////////////////////////////////////////////////7fb+/4DE/P8lmfv/H5f7/x+X
+        +/8fl/v/H5f7/x+X+/80oPvu3O7+OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADY7P43OaP76R+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/y6e+/+Ix/z/4fH+////
+        /////////////////////////////////////////////////////////////+Dw/v+Hx/z/LZ37/x+X
+        +/8fl/v/H5f7/x+X+/8fl/v/H5f7/zuj++jZ7f41AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4/L+Kk2s+9Ifl/v/H5f7/x+X+/8fl/v/H5f7/x+X
+        +/8fl/v/H5f7/0+t+/+Lyfz/veD9/+Dw/v/2+v7/+Pz+//j8/v/2+v7/4PD+/7zg/f+KyPz/Tqz7/x+X
+        +/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/Tq370eXz/igAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb6/g99wvydIpj7+x+X
+        +/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8hmPv/LJ37/yud+/8hmPv/H5f7/x+X
+        +/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/yOY+/p/w/yb9vv+DgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD+/v4ByOX9Rkiq+9Mfl/v+H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X
+        +/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v+Sqr70srm/UT///8BAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPj7/gmr2P1hRaj71B+X+/4fl/v/H5f7/x+X+/8fl/v/H5f7/x+X
+        +/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/kep+9Ot2f1f+Pv+CQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+fz+BsXk/UJzvvydNKD74x+X
+        +/0fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/TWh++N0vvycxuT9QPr8
+        /gUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA+vz+BdPq/i+e0v1qfcL8j160/LBNrPvsQaf7/0Gn+/9OrPvrX7T8sH7D/I6f0v1o1Ov+Lvr8
+        /gUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP//gAH//wAA//wAAD//AAD/8AAAD/8AAP/AAAAD/wAA/4AAAAH/AAD/AAAAAP8AAP4A
+        AAAAfwAA/AAAAAA/AAD4AAAAAB8AAPAAAAAADwAA4AAAAAAHAADgAAAAAAcAAMAAAAAAAwAAwAAAAAAD
+        AACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAwAAAAAADAADAAAAAAAMAAOAA
+        AAAABwAA4AAAAAAHAADwAAAAAA8AAPgAAAAAHwAA/AAAAAA/AAD+AAAAAH8AAP8AAAAA/wAA/4AAAAH/
+        AAD/wAAAA/8AAP/wAAAP/wAA//wAAD//AAD//4AB//8AACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+Befz
+        /kCt2f2DgsX8s2W3/NRYsfvkWLH75Ga4/NODxfyyrtn9g+f0/j/+/v4FAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+vz+FbHa
+        /YFVsPvkIZj7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/IZj7/1aw++Oy2/2A+/3+FAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////A8fk
+        /WtFqPvtH5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X
+        +/9GqfvsyOX9av///wMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPv9
+        /hSGxvy4IZj7/h+X+/8fl/v/H5f7/x+X+/8snfv/YbX8/4XG/P+Xzv3/l879/4XG/P9gtfz/LJ37/x+X
+        +/8fl/v/H5f7/x+X+/8hmPv+h8f8t/v9/hMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD2+v4eY7b81R+X+/8fl/v/H5f7/yCX+/9bsvz/vuD9//v9/v//////////////////////////////
+        ///7/f7/veD9/1qy/P8gl/v/H5f7/x+X+/8fl/v/Zbf81Pf7/hwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA+/3+FWO2/NUfl/v/H5f7/x+X+/84ovv/v+H9//7+/v//////////////////////////////
+        /////////////////////////v7+/73g/f83ovv/H5f7/x+X+/8fl/v/Zbf81Pv9/hQAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP///wOIyPy2H5f7/x+X+/8fl/v/U6/7/+z2/v//////////////////////////////
+        /////////////////////////////////////////////+v1/v9Srvv/H5f7/x+X+/8fl/v/i8n8tP//
+        /wMAAAAAAAAAAAAAAAAAAAAAyOX9bCGY+/4fl/v/H5f7/1Ku+//0+v7/////////////////////////
+        ////////////////////////////////////////z8/P/8/Pz////////////9zi5/9Qrvv/H5f7/x+X
+        +/8hmPv+yub9agAAAAAAAAAAAAAAAPv9/hRIqvvtH5f7/x+X+/83ovv/6vX+////////////////////
+        /////////////////////////////////////////v7+/8DAwP9lZWX/aWlp/9ra2v/Y2Nj/dnZ2/+n1
+        /v82ofv/H5f7/x+X+/9Kq/vs/P3+EgAAAAAAAAAAtt39gR+X+/8fl/v/H5f7/7rf/f//////////////
+        //////////////////////////////////////////////39/f+wsLD/Y2Nj/2NjY/9jY2P/bW1t/2ho
+        aP9ubm7//////7fd/f8fl/v/H5f7/x+X+/+43v1+AAAAAP7+/gVYsfvkH5f7/x+X+/9WsPv//v7+////
+        ///////////////////////////////////////////////////9/f3/oaGh/2NjY/9jY2P/Y2Nj/2Nj
+        Y/9jY2P/Y2Nj/3BwcP///////v7+/1Sv+/8fl/v/H5f7/1uy++L+/v4E6PT+QSKY+/8fl/v/H5f7/7ne
+        /f////////////////////////////////////////////////////////////7+/v+ioqL/Y2Nj/2Nj
+        Y/9jY2P/Y2Nj/2NjY/9jY2P/cnJy////////////tt39/x+X+/8fl/v/Ipj7/+r1/j2w2v2DH5f7/x+X
+        +/8qnPv/+vz+//////////////////////////////////////////////////////////////////z8
+        /P+Tk5P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/91dXX////////////5/P7/KZv7/x+X+/8fl/v/s9v9gITG
+        /LMfl/v/H5f7/160/P//////////////////////////////////////////////////////////////
+        ////////9fX1/4yMjP9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/3Z2dv////////////////9bs/z/H5f7/x+X
+        +/+Hx/ywZrf81R+X+/8fl/v/g8X8////////////////////////////////////////////////////
+        //////////////j4+P+QkJD/Z2dn/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/eHh4/////////////////4DE
+        /P8fl/v/H5f7/2i5/NJYsfvkH5f7/x+X+/+Vzv3////////////x8fH/7e3t//z8/P//////////////
+        //////////////////////////////39/f/5+fn/7u7u/9/f3//Pz8//wMDA/7Gxsf+xsbH/////////
+        ////////k8z9/x+X+/8fl/v/WrL84lex++Qfl/v/H5f7/5fO/f///////////7S0tP9jY2P/ZGRk/3Bw
+        cP+AgID/kJCQ/6CgoP+wsLD/4eHh////////////////////////////////////////////////////
+        //////////////////+Uzf3/H5f7/x+X+/9ZsvviY7b81R+X+/8fl/v/hsf8////////////sbGx/2Nj
+        Y/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/5ycnP/6+vr/////////////////////////////////////////
+        /////////////////////////////4TG/P8fl/v/H5f7/2W3/NGAw/yzH5f7/x+X+/9kt/z/////////
+        //+vr6//Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/97e3v/+/v7////////////////////////////////////
+        ////////////////////////////////////////Ybb8/x+X+/8fl/v/gsX8r6jX/YIfl/v/H5f7/zCf
+        +//9/v7//////6ysrP9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/+oqKj//v7+////////////////////
+        //////////////////////////////////////////////z9/v8unvv/H5f7/x+X+/+r2P1+4fH+Px+X
+        +/8fl/v/H5f7/8Xk/f//////qqqq/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2RkZP/c3Nz/////////
+        ////////////////////////////////////////////////////////wuL9/x+X+/8fl/v/IJf7/+Py
+        /jz+/v4FTaz74h+X+/8fl/v/Zbf8//////+np6f/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9mZmb/wcHB//7+
+        /v////////////////////////////////////////////////////////////7+/v9jtvz/H5f7/x+X
+        +/9Prfvg/v7+BAAAAACn1v1/H5f7/x+X+/8hmPv/y+f9/6SkpP93d3f/wcHB/2dnZ/9jY2P/ampq/9HR
+        0f//////////////////////////////////////////////////////////////////////yeb9/yGX
+        +/8fl/v/H5f7/6nX/XwAAAAAAAAAAPf7/hM7pPvsH5f7/x+X+/9FqPv/trvA/+/v7///////ycnJ/3Jy
+        cv/e3t7///////////////////////////////////////////////////////////////////////P5
+        /v9Dp/v/H5f7/x+X+/89pfvq+Pz+EQAAAAAAAAAAAAAAALbd/Wkfl/v+H5f7/x+X+/9oufz/+/3+////
+        ////////9/f3////////////////////////////////////////////////////////////////////
+        ///7/f7/Zrj8/x+X+/8fl/v/H5f7/rje/WYAAAAAAAAAAAAAAAAAAAAA/v7+A3G9/LMfl/v/H5f7/x+X
+        +/9suvz/9/v+////////////////////////////////////////////////////////////////////
+        ////////9/v+/2q5/P8fl/v/H5f7/x+X+/9zvvyx/v7+AgAAAAAAAAAAAAAAAAAAAAAAAAAA9Pr+E06s
+        +9Mfl/v/H5f7/x+X+/9MrPv/2e3+////////////////////////////////////////////////////
+        /////////////9js/v9Lq/v/H5f7/x+X+/8fl/v/UK370vX6/hIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA7Pb+G0ys+9Mfl/v/H5f7/x+X+/8lmfv/esH8/93v/v//////////////////////////////
+        /////////////9zv/v95wfz/JJn7/x+X+/8fl/v/H5f7/02s+9Ht9v4aAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA8vn+Eme4/LMfl/v+H5f7/x+X+/8fl/v/H5f7/0mq+/+AxPz/pNX9/7bd
+        /f+23f3/pNX9/4DE/P9Iqvv/H5f7/x+X+/8fl/v/H5f7/x+X+/5pufyy8/n+EgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/f7+A6nX/Wcxn/vrH5f7/x+X+/8fl/v/H5f7/x+X
+        +/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8yn/vqqtf9Zf3+/gIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO/3/hORzPx9OaP74B+X
+        +/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/8fl/v/H5f7/x+X+/86o/vgksz8fPD4/hIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD7/f4Eyub9Oo3K/H5itvyuRqn71Dii+/84ovv/Rqn702O2/K2Oyvx+yub9Ovv9/gQAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8AD//8AAP/8AAA/+AAAH/AAAA/gAAAHwAAAA8AA
+        AAOAAAABgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA
+        AAGAAAABwAAAA8AAAAPgAAAH8AAAD/gAAB/8AAA//wAA///AA/8oAAAAEAAAACAAAAABACAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOr1/iWWzvyKW7P7zT6l++0/pfvtW7P7zJfO
+        /Inq9f4lAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+BZvQ/Ikom/v6H5f7/zKg+/9WsPv/VrD7/zKg
+        +/8fl/v/KJv7+pvQ/Ij+/v4EAAAAAAAAAAAAAAAA/v7+BXa//LEfl/v/Taz7/8Xj/f/+/v7/////////
+        ///+/v7/xeP9/0ys+/8fl/v/eMD8sP7+/gUAAAAAAAAAAJzR/Igfl/v/brv7//r8/v//////////////
+        /////////////+fn5//6/P7/Z7X2/x+X+/+d0fyHAAAAAOv2/iUpm/v6S6v7//n8/v//////////////
+        /////////v7+/7S0tP9lZWX/oaGh/7O2uP9Kq/v/KZz7+uz2/iSYzvyKH5f7/8Pi/f//////////////
+        /////////////8/Pz/9jY2P/Y2Nj/2NjY/+4uLj/weL9/x+X+/+Zz/yIXLP7zTGf+//9/v7/////////
+        ///////////////////7+/v/eXl5/2NjY/9jY2P/urq6//3+/v8wn/v/XrT7yz+l++1VsPv///////f3
+        9//+/v7/////////////////4eHh/6ysrP+dnZ3/jY2N/8nJyf//////VK/7/0Cm++w+pfvtVrD7////
+        //+Kior/ZmZm/3V1df+Tk5P/9vb2/////////////////////////////////1Ww+/8/pfvsWbL7zDSh
+        +//+/v7/iIiI/2NjY/9jY2P/oKCg//7+/v////////////////////////////7+/v8zoPv/WrL7ypLM
+        /Ikfl/v/yub9/4WFhf9jY2P/Y2Nj/3t7e//29vb////////////////////////////I5f3/H5f7/5TN
+        /Ifn8/4kJpr7+lSv+/+wsbL/vLy8/4eHh//z8/P////////////////////////////8/f7/U677/yaa
+        +/nn9P4jAAAAAJHL/Icfl/v/e8H8//3+/v/9/f3////////////////////////////9/v7/esH8/x+X
+        +/+SzPyFAAAAAAAAAAD8/f4Eabn7sB+X+/9asvv/1ev+///////////////////////U6/7/WbH7/x+X
+        +/9qufuv/P3+BAAAAAAAAAAAAAAAAPv9/gSLyfyGI5n7+h+X+/9Bp/v/Zrj8/2a4/P9Bp/v/H5f7/yOZ
+        +/mLyfyF/P3+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN/w/iSHx/yHS6v7yi+e+/Qvnvv0S6v7yofH
+        /Ifg8P4jAAAAAAAAAAAAAAAAAAAAAPAPAADAA/4UgAH77YAB+/8AAPv/AAD7/wAA/v8AAP//AAD//wAA
+        //8AAP//AAD//4AB//+AAf//wAP///AP//8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Nastavenia</value>
+  </data>
+</root>

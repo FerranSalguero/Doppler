@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SlovakLinkLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;FrenchLinkLabel.Name" xml:space="preserve">
+    <value>FrenchLinkLabel</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonDonate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 247</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 13</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="PolishLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 180</value>
+  </data>
+  <data name="&gt;&gt;linkLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 128</value>
+  </data>
+  <data name="&gt;&gt;pictureRetrieve.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="FrenchLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SlovakLinkLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;linkLabel3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;buttonDonate.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Swedish translation by</value>
+  </data>
+  <data name="&gt;&gt;pictureLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PolishLinkLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonDonate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 231</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 65</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="FrenchLinkLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="pictureRetrieve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 12</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PolishLinkLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Per Gref</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 128</value>
+  </data>
+  <data name="&gt;&gt;SlovakLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelVersion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;buttonDonate.Name" xml:space="preserve">
+    <value>buttonDonate</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>© 2004 - 2007 Erwin van Hunen</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 50</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="labelVersion.Text" xml:space="preserve">
+    <value>Version 1.0 Beta 11</value>
+  </data>
+  <data name="pictureLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAKcAAAAvCAIAAAAJl00OAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAABOIAAA
+        TiABFn2Z3gAABslJREFUeF7tnPFHbk0Qx+/7t74SiUQiiUQikUQikUgiiUQSiUQiiUQikUQikUh0P6/N
+        Ou/Z2dk9e/bJPbfz/HDd+zw7352Z78zs7Jzj/vP5+fmr/fw0D8B6+/lpHvj10wxu7f2vuid74V/pk4z2
+        dwiKPuHLP826lvWcjLSs5/RmU7Ba1pvCVE49W9ZzerMpWC3rTWEqp54t6zm92RSslvWmMJVTz5b1nN5s
+        ClbLelOYyqln41l/fn7e29ubnZ0dGhrq6urCHv4cHh5eWFg4OTn5+PioOpt7eXk5ODhAfHR0tLe314j3
+        9PSAOTc3x15PT0+VGChq2N3dbQAHBwdnZma2t7cfHx8robG4PmBV1t/e3o6OjpaWlvBJX19fySe4C6dV
+        sgIf7u/vGyf39/e7+hg0YTb3+vq6urpq/ShaQijEsw4Bi4uLOqBBI8ju7u6CdmIbgCYWfR9+JZgiuc8F
+        GM86dOJkgl4xgZ9wGpYSjkGf3N7e4j0djV9l1nE66RIUjjeP0AvaVkSDrc3NTWqJz86zszNbKoJ6sjWV
+        SXdZRsBIt5yensabACaLUVKxYmNjQ88Bq5jA+v39fSWGfAXE6kc4B4kRF5CmIvFQGGleEXZ3d9fnsryA
+        MaxvbW0l+ASrfeFLMYgHLLNOYa+T5WbjonPX19fjtXFXcjiVqLq+vk6gHGSkzs/PXeKzAwZZp31J9gnV
+        3j3+qgKWWV9ZWREVIhSIMmICAYoB6au43nqWiiSiIQsC7n5/f2ex6T4GBgbExXQ6FpDUp+8TlxHsNzc3
+        ph3b2dkRyxW9Uqkzyg6IAjrrviAbGRmBPBg15Q09j4+Pxc5pamqqGLuQ4jspJiYmOEcMa+7nq5vDXyKX
+        tIL0mSUxgkA3D+1FpekqaTpcJbBzbGzMxWS9CQ4+vjCiYJYAr66uRFuItuLK7IBB1kUbSTbxLIMRkdGH
+        hwdrhS/RS5Z6Wefkc51OSfH1wMvLyyLxZgOizP0VJgh2MfRM0os5StQbEQq+i0lsiS4Tz07MKcZ+dkCd
+        9cvLy+TaXhSkNFofckd1Maenp31Ott9/5booTxj65ElZhXWxv+BLXZu1tTUXc35+3kiJ5d1NdLOYCiHe
+        VrkBWx2yA+qsJze2JZ/gJWuCeDJS6mJZF+WV1PRZaPbjoHL5I9h1bdjOlYIbIyUWbcVCsZe0MdQJQJ11
+        sbwnZH8xeURx5dJbznVR3j3Ri7QpuS4OZHydhcUkQcVzwSwQt1PGeWJFJRztdtkBddYrXdCVaAiyHkx0
+        FnxVeIVCH4oikoCmUBv8SdSQDtFVg9ZBZ11xWRBQZz0hrX0XlmQTyrkuRqI+CFSoFatxMNdFt1I20lj3
+        cVDHZcFoVq42CdU0mLVBfXwIX7nODc2FUGaZ3B+Uaiw2SsFznUGKi2lrclULg8+HsgPquZ7QOXWcdfEm
+        RmPv21i8stvOS7wUsYVuBq2Wy4Q9xqqSxNDDFaGxT871IKDOunhLYn4epFZZUNUn5Qp/cXEhQvgSVHy8
+        Y2eoYkxQ9sURjVGFblxUgKu/UuGVB5Fc0lzA8fFxnfU6gDrr3LNdfdyJYaUgqMs6m4nXLZLDHdSIQxg0
+        sAxRXcWCxlBFHPsQDeL1ujiEES1UziAIdkWKl93sgDrrvukpo9Ngx+MLhQysi8cquMSjfbzPHJ57sNis
+        Ud6LN0Xf1Ja2kVcewMES1jM/V57lFx8vihbiMtEjvmlrsXRlB9RZ51eeEYibEvH8ZOfw8emegXU28z2A
+        Cd46xGkrr4gEBZUFxbxUHOqO5wgpsXLYtkM5MtAnGTDIOlHO45M6PkE2533dOAK1eLBdVS0oPzw8dCMU
+        NLGti8EnYkozJkUKR5iOgVJJWbKvIpVE7EhfZ914NgEwyDoLGHxRn2I84FuTn3VDfKXn4sHXPKhdMe9O
+        WSNZLL4EUcdTyNJ+luIyO2AM66xhBElNTXtRoCO5bv1CRz05Oan7Bb2Ju5hXHLnck/RBOw1g8Ulikac6
+        JNGoutPl7ICRrBujqCXcVCvlg1G4I7ledDSa8QobR5FtyCGGvpq8SXullfKLqXBgR4H8hX/yJT8ljALF
+        87tEJ+Er3sd8jVUwGnyAlVg3fiYWufjQwXCwcungBRbf8WS16jjr8c3kN6wUyaAwiFNFs9jcF3zPoLID
+        foMTcm2R/r8W5NIgEkckyTQi9JLkn6kf5qV9UzzSnhkmA0Ya8icsazzryU70hVEyYIMEW9b/x36DmKuj
+        ast6y3qd+OmwbPaCnB2www7ICd/mepvrOeMpM1b21MwOmNngTsK1ud7meifjqyZ29tTMDljTwO8Ub0yu
+        f6dT/vq9fgN8yLm4u9D8zgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="linkLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>French translation by</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;PolishLinkLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SlovakLinkLabel.Text" xml:space="preserve">
+    <value>Marián Hikaník</value>
+  </data>
+  <data name="buttonOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 24</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;pictureLogo.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="pictureRetrieve.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PolishLinkLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="FrenchLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 145</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pictureRetrieve.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="pictureRetrieve.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Name" xml:space="preserve">
+    <value>buttonOK</value>
+  </data>
+  <data name="&gt;&gt;PolishLinkLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FrenchLinkLabel.Text" xml:space="preserve">
+    <value>Pouts</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="PolishLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 162</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="buttonOK.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="SlovakLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="pictureLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;SlovakLinkLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 301</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;FrenchLinkLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="pictureLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="SlovakLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 162</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="buttonOK.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureRetrieve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="labelVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 16</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="linkLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="linkLabel1.Text" xml:space="preserve">
+    <value>www.dopplerradio.net</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="pictureLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 12</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 145</value>
+  </data>
+  <data name="&gt;&gt;pictureLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;SlovakLabel.Name" xml:space="preserve">
+    <value>SlovakLabel</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="linkLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 112</value>
+  </data>
+  <data name="linkLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 162</value>
+  </data>
+  <data name="PolishLinkLabel.Text" xml:space="preserve">
+    <value>Bartłomiej Kacprzak</value>
+  </data>
+  <data name="SlovakLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;PolishLinkLabel.Name" xml:space="preserve">
+    <value>PolishLinkLabel</value>
+  </data>
+  <data name="&gt;&gt;SlovakLinkLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pictureLogo.Name" xml:space="preserve">
+    <value>pictureLogo</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AboutForm</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="linkLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>More info can be found at</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 112</value>
+  </data>
+  <data name="&gt;&gt;FrenchLinkLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 282</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="FrenchLinkLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SlovakLinkLabel.Name" xml:space="preserve">
+    <value>SlovakLinkLabel</value>
+  </data>
+  <data name="&gt;&gt;linkLabel3.Name" xml:space="preserve">
+    <value>linkLabel3</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonDonate.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhPgAfAPQAADJXgRVBcMHN2k5uktHV2oiguLTE08jT3tfh6QAhWPb4+kRli+fs8KS3yp2wxOPx
+        93CMqeHn7VZ2mHyWsef1+u7x9GiDoiRIc7u7u+np6QY0ZiI2TZSnvQAAAOr3/P///ywAAAAAPgAfAAAF
+        /yDXcGRpnmiqrixZWEPhzXRt33iu7zZQfMCgcEgsGo/I4cXyuT2eUJ4OGt09CtgCZ/bJLImCgGasCSwc
+        SSLjQh4DJhWjQAMABADACuFrm1wMgAYOFhoWMxSIPAYBDoENEHcUHoiSMxMAFQoDEjN6X0MLTEMNhQt1
+        ADEDqgMQDBKqdUQIAZunCxyaTAoAHHl7TDUPAQ0fDAsDCB8VFwEWWRJjrAOFARAQFxJAFgsGQNPOWBZm
+        F70IGgKdv0MHAQQfBgkJaBUBP0IF8h8I8cQRAb0MNCSA4G3AEANjDnxwECCIJ2A0OFxQsHAJxQOFJFwA
+        4O7AwA8RNCzwliCZAFQRPv8oMGNhYzcGAQJQhEHj4RAYsgAk8GHgAIMPHBIYXCbgQ4MEF+IIqWAB6YSe
+        PzEa/ODDoboaF34oECDgUYAE9g50+yBhpwIFxNYIBXJAgIECFxJIoBihQRwHYEEGMFBTXZCQRTGWOTbx
+        w4S1uxYE+KktwIUJytjcgZbsaIA4TbstSumLz4wGl4FeOIDAQwM8Hw44iDOLocIPcwoEKGrOAAIKc1JG
+        4MCZ2c9LNWwGgbCAgaupqTWsVnDAZ4PRGojtsjAHAQO4DqtlimCAAUYAxhcQtOrZw4I2E2pA0HCBDZkF
+        EgBQnBAAwXoynGiQctymf4PgfgFBAFdcKRUEAQ44IEDWWwdMoIE75pRDoACcBYFAgj1NSCBF5EEkxQ2z
+        ZFUAAAtU8uGJwqVRBAenkJiMijB25uGJNNaoQ4ox5qhjETbZ6OOPfX2CRAdEdhBEkUAYmeSRRCZZpJFP
+        JtHjDh3QUGWVM1yJ5ZZWdpkligEeoeQHUB5J5plKPjnmmk1KeRWVXWLpwZVZcvnlnXOCKaSYSDqZppln
+        LikomX0eMSWQiJ4IxAVDZeDoo5BGKumklFZqaQYIGLBRphh06umnoIYq6qikltopBxu0t8GqrLbq6quw
+        xirrrK6GAAA7
+</value>
+  </data>
+  <data name="SlovakLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 13</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 13</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Name" xml:space="preserve">
+    <value>labelVersion</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>If you like Doppler, please consider a donation</value>
+  </data>
+  <data name="SlovakLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="buttonDonate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 32</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;SlovakLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pictureRetrieve.Name" xml:space="preserve">
+    <value>pictureRetrieve</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>CTP 2007-03-25</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SlovakLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonDonate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SlovakLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="pictureRetrieve.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AZZvFGd5zwfqAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;SlovakLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;FrenchLinkLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 315</value>
+  </data>
+  <data name="buttonDonate.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 180</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Polish translation by</value>
+  </data>
+  <data name="&gt;&gt;pictureRetrieve.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
+    <value>linkLabel1</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>333, 337</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>About Doppler</value>
+  </data>
+  <data name="&gt;&gt;linkLabel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SlovakLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 162</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SlovakLinkLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="PolishLinkLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="SlovakLinkLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SlovakLabel.Text" xml:space="preserve">
+    <value>Slovak translation by</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Slovak</value>
+  </metadata>
+</root>
