@@ -6,5 +6,5 @@
     cause the file to be unrecognizable by the program.
 -->
 <GenericObjectDataSource DisplayName="DopplerVersion" Version="1.0" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
-   <TypeInfo>Doppler.net.dopplerradio.update.DopplerVersion, Doppler, Version=2.9.7.3, Culture=neutral, PublicKeyToken=null</TypeInfo>
+   <TypeInfo>Doppler.net.dopplerradio.update.DopplerVersion</TypeInfo>
 </GenericObjectDataSource>
